@@ -1,6 +1,6 @@
 # Shinekart E-Commerce Platform
 
-Welcome to Shinekart, your go-to e-commerce platform for a seamless online shopping experience. This repository contains the codebase for the Shinekart platform, built with modern web technologies like TypeScript, React, and Shadcn UI.
+Welcome to Shinekart, your go-to Tech E-Commerce platform for a seamless online shopping experience. This repository contains the codebase for the Shinekart platform, built with modern web technologies like TypeScript, React, and Shadcn UI.
 
 ## Table of Contents
 
@@ -10,7 +10,6 @@ Welcome to Shinekart, your go-to e-commerce platform for a seamless online shopp
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## About Shinekart
@@ -25,22 +24,21 @@ Shinekart is a fully functional e-commerce platform designed to offer a smooth a
 - **Order Processing**: Seamless order placement and tracking.
 - **Responsive Design**: Optimized for both desktop and mobile devices.
 - **Admin Dashboard**: Manage users, orders, and products efficiently.
+- **Theme Switching**: Easily switch between light and dark themes, with the default set to the system theme.
 
 ## Tech Stack
 
 - **Frontend**: 
   - [TypeScript](https://www.typescriptlang.org/)
   - [React](https://reactjs.org/)
-  - [Shadcn UI](https://shadcn.dev/)
-  - [Redux](https://redux.js.org/) for state management
   - [React Router](https://reactrouter.com/) for navigation
 
 - **Backend**: 
-  - [PostgreSQL](https://www.postgresql.org/)
-  - [Clerk](https://clerk.com/) for authentication
+  - [PostgreSQL](https://www.postgresql.org/) for database
+  - [Clerk](https://clerk.dev/) for authentication
 
 - **Tools**:
-  - [VS Code](https://code.visualstudio.com/)
+  - [Shadcn UI](https://ui.shadcn.com/)
   - [ESLint](https://eslint.org/)
   - [Prettier](https://prettier.io/)
 
@@ -49,6 +47,7 @@ Shinekart is a fully functional e-commerce platform designed to offer a smooth a
 ### Prerequisites
 
 - npm (>= 6.x) or yarn (>= 1.x)
+- PostgreSQL
 
 ### Steps
 
@@ -72,8 +71,8 @@ Shinekart is a fully functional e-commerce platform designed to offer a smooth a
    Create a `.env` file in the root directory and add the following variables:
 
    ```env
-   MONGO_URI=your_mongodb_uri
-   JWT_SECRET=your_jwt_secret
+   DATABASE_URL=your_postgresql_database_url
+   CLERK_API_KEY=your_clerk_api_key
    ```
 
 4. **Run the application**
@@ -94,6 +93,7 @@ Once the application is up and running, you can explore the following features:
 - **User Authentication**: Register and log in to your account.
 - **Shopping Cart**: Add products to your cart and proceed to checkout.
 - **Admin Dashboard**: Manage products, users, and orders (admin access required).
+- **Theme Switching**: Change between light and dark themes, with the default set to the system theme.
 
 ## Contributing
 
@@ -105,17 +105,13 @@ We welcome contributions from the community! To contribute:
 4. Push to the branch (`git push origin feature/your-feature-name`).
 5. Create a new Pull Request.
 
-Please ensure your code follows our [coding guidelines](CONTRIBUTING.md) and includes relevant tests.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+Please ensure your code follows our coding guidelines and includes relevant tests.
 
 ## Contact
 
 For any inquiries or support, please reach out to us at:
 
 - **Email**: support@shinekart.com
-- **GitHub Issues**: [https://github.com/yourusername/shinekart/issues](https://github.com/yourusername/shinekart/issues)
+- **GitHub Issues**: [https://github.com/mrmayankmathur/shinekart/issues](https://github.com/mrmayankmathur/shinekart)
 
 Thank you for visiting Shinekart! Happy coding!
