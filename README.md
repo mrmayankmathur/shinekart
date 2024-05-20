@@ -23,7 +23,7 @@ Shinekart is a fully functional e-commerce platform designed to offer a smooth a
 - **Shopping Cart**: Dynamic cart management with add, update, and delete functionality.
 - **Order Processing**: Seamless order placement and tracking.
 - **Responsive Design**: Optimized for both desktop and mobile devices.
-- **Admin Dashboard**: Manage users, orders, and products efficiently.
+- [**Admin Dashboard**](https://shinekart-admin.vercel.app/): Manage users, orders, and products efficiently.
 - **Theme Switching**: Easily switch between light and dark themes, with the default set to the system theme.
 
 ## Tech Stack
