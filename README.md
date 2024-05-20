@@ -1,36 +1,121 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Shinekart E-Commerce Platform
 
-## Getting Started
+Welcome to Shinekart, your go-to e-commerce platform for a seamless online shopping experience. This repository contains the codebase for the Shinekart platform, built with modern web technologies like TypeScript, React, and Shadcn UI.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [About Shinekart](#about-shinekart)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## About Shinekart
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Shinekart is a fully functional e-commerce platform designed to offer a smooth and intuitive shopping experience. Whether you're a developer looking to contribute or a business owner aiming to launch your online store, Shinekart provides the tools and features needed to succeed.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
 
-## Learn More
+- **User Authentication**: Secure login and registration using Clerk.
+- **Product Management**: Add, update, and remove products easily.
+- **Shopping Cart**: Dynamic cart management with add, update, and delete functionality.
+- **Order Processing**: Seamless order placement and tracking.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
+- **Admin Dashboard**: Manage users, orders, and products efficiently.
 
-To learn more about Next.js, take a look at the following resources:
+## Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Frontend**: 
+  - [TypeScript](https://www.typescriptlang.org/)
+  - [React](https://reactjs.org/)
+  - [Shadcn UI](https://shadcn.dev/)
+  - [Redux](https://redux.js.org/) for state management
+  - [React Router](https://reactrouter.com/) for navigation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Backend**: 
+  - [PostgreSQL](https://www.postgresql.org/)
+  - [Clerk](https://clerk.com/) for authentication
 
-## Deploy on Vercel
+- **Tools**:
+  - [VS Code](https://code.visualstudio.com/)
+  - [ESLint](https://eslint.org/)
+  - [Prettier](https://prettier.io/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Installation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Prerequisites
+
+- npm (>= 6.x) or yarn (>= 1.x)
+
+### Steps
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/mrmayankmathur/shinekart.git
+   cd shinekart
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Set up environment variables**
+
+   Create a `.env` file in the root directory and add the following variables:
+
+   ```env
+   MONGO_URI=your_mongodb_uri
+   JWT_SECRET=your_jwt_secret
+   ```
+
+4. **Run the application**
+
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
+
+   The application will be available at `http://localhost:3000`.
+
+## Usage
+
+Once the application is up and running, you can explore the following features:
+
+- **Browse Products**: View all available products.
+- **User Authentication**: Register and log in to your account.
+- **Shopping Cart**: Add products to your cart and proceed to checkout.
+- **Admin Dashboard**: Manage products, users, and orders (admin access required).
+
+## Contributing
+
+We welcome contributions from the community! To contribute:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature-name`).
+3. Commit your changes (`git commit -am 'Add some feature'`).
+4. Push to the branch (`git push origin feature/your-feature-name`).
+5. Create a new Pull Request.
+
+Please ensure your code follows our [coding guidelines](CONTRIBUTING.md) and includes relevant tests.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contact
+
+For any inquiries or support, please reach out to us at:
+
+- **Email**: support@shinekart.com
+- **GitHub Issues**: [https://github.com/yourusername/shinekart/issues](https://github.com/yourusername/shinekart/issues)
+
+Thank you for visiting Shinekart! Happy coding!
